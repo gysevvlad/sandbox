@@ -1,0 +1,6 @@
+startup_message off
+term "screen-256color"
+defutf8 on
+utf8 on on
+shell "/bin/bash"
+caption always "%{= g} [ %{G}%H %{g}][%= %{= w}%-w%{r}(%{W}%n %t%{r})%{-}%{W}%+w %=%{g}][%{B} %y/%m/%d %{W}%c %{g}]"
